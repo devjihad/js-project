@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-slate-400">
+    <section class="flex items-center justify-center h-[600px]">
+        <div>
+            <h1 class="flex justify-center text-5xl font-bold text-blue-950 mb-16">Let's Welcome to the Page </h1>
+        <section class="flex justify-center gap-5">
+            <div class="bg-slate-700 h-52 w-72 rounded-2xl text-white text-2xl font-medium pt-14">
+                <P class="text-center ">Deposit</P>
+                <p class="text-center">$ <span id="depos">0</span></p>
+            </div>
+            <div class="bg-slate-700 h-52 w-72 rounded-2xl pt-14 text-white text-2xl font-medium">
+                <p class="text-center ">Total</p>
+                <p class="text-center ">$ <span id="total">500</span></p>
+            </div>
+            <div class="bg-slate-700 h-52 w-72 rounded-2xl pt-14 text-white text-2xl font-medium">
+                <p class="text-center ">Withdraw</p>
+                <p class="text-center ">$ <span id="Withdraw">00</span></p>
+            </div>
+        </section>
+        <div class="flex gap-12">
+            <div class="mt-10  ">
+                <input type="text" name="" id="depoIn" class="h-10 w-80 rounded-xl">
+                
+        
+               <button class="bg-slate-700 h-10 w-28 rounded-xl text-white text-2xl font-medium" id="depo">Deposit</button>
+    
+               
+            </div>
+            <div class="mt-10">
+                <input type="text" name="" id="withIn" class="h-10 w-80 rounded-xl">
+                <button class="bg-slate-700 h-10 w-28 rounded-xl text-white text-2xl font-medium " id="with">Withdraw</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
